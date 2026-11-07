@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<gameList>
+  <game>
+    <path>./Pixel Cup Soccer.sh</path>
+    <name>Pixel Cup Soccer</name>
+    <desc>Pixel Cup Soccer (Android, Unity 2022.3 IL2CPP) qua so-loader NextOS.</desc>
+    <developer>Batovi Games Studio</developer>
+    <genre>Sports</genre>
+  </game>
+</gameList>

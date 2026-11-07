@@ -1,0 +1,17 @@
+{
+  "attr": {
+    "arch": [
+      "aarch64"
+    ],
+    "min_glibc": "2.17",
+    "runtime": [],
+    "title": "Pixel Cup Soccer"
+  },
+  "items": [
+    "Pixel Cup Soccer.sh",
+    "pixelcupsoccer/"
+  ],
+  "items_opt": [],
+  "name": "pixelcupsoccer.zip",
+  "version": 4
+}
