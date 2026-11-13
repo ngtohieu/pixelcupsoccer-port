@@ -48,6 +48,12 @@ cầu). Sau khi cài xong có thể xoá APK trong `gamedata/`.
 Gamepad được Unity đọc như tay cầm Xbox (vị trí nút). Analog phải điều khiển con
 trỏ cho các màn hình cảm ứng, R3/R1 = chạm. **Select + Start** để thoát.
 
+Bấm giữ **L2 + R2** để hoán đổi D-pad và analog trái: máy rung một cái là đã
+đổi, giữ lần nữa để trả về (giống port Soul Knight). Trạng thái được lưu trong
+`padswap.state` cho lần chơi sau. Trong `port-env.sh`: `PADSWAP_MODE=off` để
+tắt, `PADSWAP_SWAP=1` để luôn bật khi mở game. Mã nguồn: `src/padswap.c` (thư
+viện `libpadswap.so`).
+
 ## Giới hạn đã biết
 
 - Chưa được thử trên máy thật — loader được viết cho Skateboard Party 3, nên
